@@ -108,11 +108,7 @@ This allows the I/O transform's unit tests to act as if they have a perfect netw
 
 If your I/O transform allows batching of reads/writes, you must force the batching to occur in your test. Having configurable batch size options on your I/O transform allows that to happen easily. These must be marked as test only.
 
-<!--
+
 # Next steps
 
-If you have a well tested I/O transform, why not contribute it to Apache Beam? Read all about it:
-
-[Contributing I/O Transforms]({{site.baseurl }}/documentation/io/contributing/)
--->
-
+If you have a well tested I/O transform, why not [contribute it to Apache Beam]({{site.baseurl }}/documentation/io/contributing/)?
